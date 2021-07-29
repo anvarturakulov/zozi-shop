@@ -3,11 +3,10 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './app.css'
 import AppHeader from '../app-header'
 import Footer from '../footer'
-import MainPage from '../mainPage'
-import AboutPage from '../aboutPage'
-import ShopPage from '../shopPage'
+import MainPage from '../pages/main-page'
+import AboutPage from '../pages/about-page'
+import ShopPage from '../pages/shop-page'
 import Cart from '../cart'
-import ContactPage from '../contactPage'
 
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
                 <Route path='/about' exact component={AboutPage}/>
                 <Route path='/shop' exact component={ShopPage}/>
                 <Route path='/cart' exact component={Cart}/>
-                <Route path='/contact' exact component={ContactPage}/>
                 <Footer/>
             </Router>
         </div>

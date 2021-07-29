@@ -1,8 +1,15 @@
 import React from 'react'
+import Navbar from '../navbar'
+import Header from '../header'
 
 const AppHeader = () => {
     return (
-        <h1>App Header</h1>
+        <div>
+            <Navbar/>
+            <Header/>
+        </div>
+
+        
     )
 }
 

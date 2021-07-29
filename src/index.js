@@ -12,8 +12,9 @@ import store from './store'
 import './index.scss';
 import './lib/css/bootstrap.min.css'
 import './lib/css/custom.css'
-import './lib/css/fontawesome.css'
+import './webfonts/fontawesome.css'
 import './lib/css/templatemo.css'
+import 'bootstrap/dist/css/bootstrap.css';
 
 const restoService = new RestoService();
 

@@ -55,6 +55,7 @@ body, ul, li, p, a, label, input, div {
 .text-success { color: #59ab6e !important;}
 .text-light { color: #cfd6e1 !important;}
 .bg-dark { background-color: #212934 !important;}
+.bg-orange { background-color: #ed8a9f !important;}
 .bg-light { background-color: #e9eef5 !important;}
 .bg-black { background-color: #1d242d !important;}
 .bg-success { background-color: #59ab6e !important;}
@@ -189,3 +190,76 @@ body, ul, li, p, a, label, input, div {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+
+
+.header-links a{
+  margin-left: 10px;
+}
+
+.category-type{
+  width : 200px;
+  border-radius: .25rem;
+  padding : 5px 10px;
+  text-align: left;
+  outline: none;
+  color: #59ab6e;
+  background-color: transparent;
+  border: 1px solid #59ab6e;  
+}
+
+.category-type.active { 
+  color: #fff;
+  background-color: #59ab6e;
+  border: none;
+}
+
+.sort-box{
+  align-items: center;
+  margin: 10px 0;
+  justify-content: flex-end;
+}
+
+
+.sort-box select{
+  margin-left: 20px;
+  width : 180px;
+  color: #818181;
+}
+
+.category-box{
+  border-bottom: 1px solid #dddada;
+  font-weight: 300;
+}
+
+.slider-content{
+  position:absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.title-slider{
+  /* width : 200px; */
+  background-color: #90cc9f;
+  color: #fff;
+  padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;  
+  text-align:center
+}
+
+.prod-price{
+  border-top: 1px solid #dddada;
+  padding: 20px 0px 10px;
+  margin-top: 20px;
+  /* margin-top: 20px;  */
+}
+
+.prod-title{
+  text-align: center;
+  font-weight: 400 !important;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  font-weight: 400;
+}
