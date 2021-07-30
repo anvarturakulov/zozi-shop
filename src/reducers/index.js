@@ -1,5 +1,5 @@
 const initialState = {
-    menu : [],
+    list : [],
     cart : [],
     loading:true,
     error: false,
@@ -8,21 +8,21 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case 'MENU_LOADED':
+        case 'LIST_LOADED':
             return {
                 ...state,
-                menu: action.payload,
+                list: action.payload,
                 loading:false,
                 error : false
             };
-        case 'MENU_REQUESTED':
+        case 'LIST_REQUESTED':
             return {
                 ...state,
-                menu: state.menu,
+                list: state.list,
                 loading:true,
                 error : false
             };
-        case 'MENU_ERROR':
+        case 'LIST_ERROR':
             return {
                 ...state,
                 error:true
@@ -48,7 +48,7 @@ const reducer = (state = initialState, action) => {
                 }
             }
 
-            const item = state.menu.find(item => item.id === id)
+            const item = state.list.find(item => item.id === id)
             const newItem = {
                 title : item.title,
                 price : item.price,

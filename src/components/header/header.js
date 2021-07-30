@@ -7,7 +7,7 @@ const Header = () => {
             <div class="container d-flex justify-content-between align-items-center">
 
                 <Link class="navbar-brand text-success logo h2 align-self-center" to="/">
-                    Zozi Flowers
+                    Zozi Gullari
                 </Link>
 
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

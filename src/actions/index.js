@@ -1,19 +1,19 @@
-const menuLoaded = (newMenu) => {
+const listLoaded = (newList) => {
     return {
-        type : 'MENU_LOADED',
-        payload : newMenu
+        type : 'LIST_LOADED',
+        payload : newList
     };
 };
 
-const menuRequested = () => {
+const listRequested = () => {
     return {
-        type : 'MENU_REQUESTED',
+        type : 'LIST_REQUESTED',
     };
 };
 
-const menuError = () => {
+const listError = () => {
     return {
-        type : 'MENU_ERROR',
+        type : 'LIST_ERROR',
     };
 };
 
@@ -32,9 +32,9 @@ const deleteItemFromCart = (itemId) => {
 };
 
 export {
-    menuLoaded,
-    menuRequested,
-    menuError, 
+    listLoaded,
+    listRequested,
+    listError, 
     addItemToCart,
     deleteItemFromCart
 }

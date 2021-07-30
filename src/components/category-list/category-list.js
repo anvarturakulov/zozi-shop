@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CategoryProducts = () => {
+const CategoryList = () => {
     return (
         <div className="container py-5 category-box">
             <div className="row text-center pt-3">
@@ -31,4 +31,4 @@ const CategoryProducts = () => {
     )
 }
 
-export default CategoryProducts
+export default CategoryList

@@ -1,39 +1,410 @@
 {
 	"flowers": [
 		{
-			"title": "Cesar salad",
-			"price": 12,
+			"title": "Букет № 1",
+			"price": 230000,
 			"url": "1.jpg",
-			"category": "salads",
+			"category": "bouquet",
 			"id": 1
 		},
 		{
-			"title": "Pizza Margherita",
-			"price": 10,
-			"url": "https://static.1000.menu/img/content/21458/-salat-cezar-s-kr-salat-cezar-s-krevetkami-s-maionezom_1501173720_1_max.jpg",
-			"category": "pizza",
+			"title": "Букет № 2",
+			"price": 120000,
+			"url": "2.jpg",
+			"category": "bouquet",
 			"id": 2
 		},
 		{
-			"title": "Pizza Napoletana",
-			"price": 13,
-			"url": "https://www.pizzanapoletana.org/struttura/pagine_bicolor/mobile/decalogo_avpn_1.jpg",
-			"category": "pizza",
+			"title": "Букет № 3",
+			"price": 218000,
+			"url": "3.jpg",
+			"category": "bouquet",
 			"id": 3
 		},
 		{
-			"title": "Greece salad",
-			"price": 8,
-			"url": "https://assets.epicurious.com/photos/576454fb42e4a5ed66d1df6b/master/pass/greek-salad.jpg",
-			"category": "salads",
+			"title": "Букет № 4",
+			"price": 415000,
+			"url": "4.jpg",
+			"category": "bouquet",
 			"id": 4
 		},
 		{
-			"title": "Cowboy Steak",
-			"price": 25,
-			"url": "https://i.cbc.ca/1.4491288.1516208229!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/cowboysteak.jpg",
-			"category": "meat",
+			"title": "Букет № 5",
+			"price": 135000,
+			"url": "5.jpg",
+			"category": "bouquet",
 			"id": 5
+		},
+		{
+			"title": "Букет № 6",
+			"price": 220000,
+			"url": "6.jpg",
+			"category": "bouquet",
+			"id": 6
+		},
+		{
+			"title": "Букет № 7",
+			"price": 350000,
+			"url": "7.jpg",
+			"category": "bouquet",
+			"id": 7
+		},
+		{
+			"title": "Букет № 8",
+			"price": 470000,
+			"url": "8.jpg",
+			"category": "bouquet",
+			"id": 8
+		},
+		{
+			"title": "Букет № 9",
+			"price": 440000,
+			"url": "9.jpg",
+			"category": "bouquet",
+			"id": 9
+		},
+		{
+			"title": "Букет № 10",
+			"price": 120000,
+			"url": "10.jpg",
+			"category": "bouquet",
+			"id": 10
+		},
+		{
+			"title": "Букет № 11",
+			"price": 300000,
+			"url": "11.jpg",
+			"category": "bouquet",
+			"id": 11
+		},
+		{
+			"title": "Букет № 12",
+			"price": 520000,
+			"url": "12.jpg",
+			"category": "bouquet",
+			"id": 12
+		},
+		{
+			"title": "Букет № 13",
+			"price": 230000,
+			"url": "1.jpg",
+			"category": "bouquet",
+			"id": 13
+		},
+		{
+			"title": "Букет № 14",
+			"price": 120000,
+			"url": "2.jpg",
+			"category": "bouquet",
+			"id": 14
+		},
+		{
+			"title": "Букет № 15",
+			"price": 218000,
+			"url": "3.jpg",
+			"category": "bouquet",
+			"id": 15
+		},
+		{
+			"title": "Букет № 16",
+			"price": 415000,
+			"url": "4.jpg",
+			"category": "bouquet",
+			"id": 16
+		},
+		{
+			"title": "Букет № 17",
+			"price": 135000,
+			"url": "5.jpg",
+			"category": "bouquet",
+			"id": 17
+		},
+		{
+			"title": "Букет № 18",
+			"price": 220000,
+			"url": "6.jpg",
+			"category": "bouquet",
+			"id": 18
+		},
+		{
+			"title": "Букет № 19",
+			"price": 350000,
+			"url": "7.jpg",
+			"category": "bouquet",
+			"id": 19
+		},
+		{
+			"title": "Букет № 20",
+			"price": 470000,
+			"url": "8.jpg",
+			"category": "bouquet",
+			"id": 20
+		},
+		{
+			"title": "Букет № 21",
+			"price": 440000,
+			"url": "9.jpg",
+			"category": "bouquet",
+			"id": 21
+		},
+		{
+			"title": "Букет № 22",
+			"price": 120000,
+			"url": "10.jpg",
+			"category": "bouquet",
+			"id": 22
+		},
+		{
+			"title": "Букет № 23",
+			"price": 300000,
+			"url": "11.jpg",
+			"category": "bouquet",
+			"id": 23
+		},
+		{
+			"title": "Букет № 24",
+			"price": 520000,
+			"url": "12.jpg",
+			"category": "bouquet",
+			"id": 24
+		},
+		{
+			"title": "Цветы в коробках № 1",
+			"price": 230000,
+			"url": "1.jpg",
+			"category": "boxes",
+			"id": 25
+		},
+		{
+			"title": "Цветы в коробках № 2",
+			"price": 120000,
+			"url": "2.jpg",
+			"category": "boxes",
+			"id": 26
+		},
+		{
+			"title": "Цветы в коробках № 3",
+			"price": 218000,
+			"url": "3.jpg",
+			"category": "boxes",
+			"id": 27
+		},
+		{
+			"title": "Цветы в коробках № 4",
+			"price": 415000,
+			"url": "4.jpg",
+			"category": "boxes",
+			"id": 28
+		},
+		{
+			"title": "Цветы в коробках № 5",
+			"price": 135000,
+			"url": "5.jpg",
+			"category": "boxes",
+			"id": 29
+		},
+		{
+			"title": "Цветы в коробках № 6",
+			"price": 220000,
+			"url": "6.jpg",
+			"category": "boxes",
+			"id": 30
+		},
+		{
+			"title": "Цветы в коробках № 7",
+			"price": 350000,
+			"url": "7.jpg",
+			"category": "boxes",
+			"id": 31
+		},
+		{
+			"title": "Цветы в коробках № 8",
+			"price": 470000,
+			"url": "8.jpg",
+			"category": "boxes",
+			"id": 32
+		},
+		{
+			"title": "Цветы в коробках № 9",
+			"price": 440000,
+			"url": "9.jpg",
+			"category": "boxes",
+			"id": 33
+		},
+		{
+			"title": "Цветы в коробках № 10",
+			"price": 120000,
+			"url": "10.jpg",
+			"category": "boxes",
+			"id": 34
+		},
+		{
+			"title": "Цветы в коробках № 11",
+			"price": 300000,
+			"url": "11.jpg",
+			"category": "boxes",
+			"id": 35
+		},
+		{
+			"title": "Цветы в коробках № 12",
+			"price": 520000,
+			"url": "12.jpg",
+			"category": "boxes",
+			"id": 36
+		},
+		{
+			"title": "Цветы в коробках № 13",
+			"price": 230000,
+			"url": "1.jpg",
+			"category": "boxes",
+			"id": 37
+		},
+		{
+			"title": "Цветы в коробках № 14",
+			"price": 120000,
+			"url": "2.jpg",
+			"category": "boxes",
+			"id": 38
+		},
+		{
+			"title": "Цветы в коробках № 15",
+			"price": 218000,
+			"url": "3.jpg",
+			"category": "boxes",
+			"id": 39
+		},
+		{
+			"title": "Цветы в коробках № 16",
+			"price": 415000,
+			"url": "4.jpg",
+			"category": "boxes",
+			"id": 40
+		},
+		{
+			"title": "Цветы в коробках № 17",
+			"price": 135000,
+			"url": "5.jpg",
+			"category": "boxes",
+			"id": 41
+		},
+		{
+			"title": "Цветы в коробках № 18",
+			"price": 220000,
+			"url": "6.jpg",
+			"category": "boxes",
+			"id": 42
+		},
+		{
+			"title": "Цветы в коробках № 19",
+			"price": 350000,
+			"url": "7.jpg",
+			"category": "boxes",
+			"id": 43
+		},
+		{
+			"title": "Цветы в коробках № 20",
+			"price": 470000,
+			"url": "8.jpg",
+			"category": "boxes",
+			"id": 44
+		},
+		{
+			"title": "Цветы в коробках № 21",
+			"price": 440000,
+			"url": "9.jpg",
+			"category": "boxes",
+			"id": 45
+		},
+		{
+			"title": "Цветы в коробках № 22",
+			"price": 120000,
+			"url": "10.jpg",
+			"category": "boxes",
+			"id": 46
+		},
+		{
+			"title": "Цветы в коробках № 23",
+			"price": 300000,
+			"url": "11.jpg",
+			"category": "boxes",
+			"id": 47
+		},
+		{
+			"title": "Цветы в коробках № 24",
+			"price": 520000,
+			"url": "12.jpg",
+			"category": "boxes",
+			"id": 48
+		},
+		{
+			"title": "Подарки № 1",
+			"price": 230000,
+			"url": "1.jpg",
+			"category": "presents",
+			"id": 49
+		},
+		{
+			"title": "Подарки № 2",
+			"price": 120000,
+			"url": "2.jpg",
+			"category": "presents",
+			"id": 50
+		},
+		{
+			"title": "Подарки № 3",
+			"price": 218000,
+			"url": "3.jpg",
+			"category": "presents",
+			"id": 51
+		},
+		{
+			"title": "Подарки № 4",
+			"price": 415000,
+			"url": "4.jpg",
+			"category": "presents",
+			"id": 52
+		},
+		{
+			"title": "Подарки № 5",
+			"price": 135000,
+			"url": "5.jpg",
+			"category": "presents",
+			"id": 53
+		},
+		{
+			"title": "Подарки № 6",
+			"price": 220000,
+			"url": "6.jpg",
+			"category": "presents",
+			"id": 54
+		},
+		{
+			"title": "Подарки № 7",
+			"price": 350000,
+			"url": "1.jpg",
+			"category": "presents",
+			"id": 55
+		},
+		{
+			"title": "Подарки № 8",
+			"price": 470000,
+			"url": "2.jpg",
+			"category": "presents",
+			"id": 56
+		},
+		{
+			"title": "Подарки № 9",
+			"price": 440000,
+			"url": "3.jpg",
+			"category": "presents",
+			"id": 57
+		},
+		{
+			"title": "Подарки № 10",
+			"price": 120000,
+			"url": "4.jpg",
+			"category": "presents",
+			"id": 58
 		}
 	]
 }

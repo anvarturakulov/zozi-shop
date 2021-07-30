@@ -1,9 +1,9 @@
 export default class RestoServise {
     constructor() {
-        this._url = 'http://localhost:3000/menu';
+        this._url = 'http://localhost:3000/flowers';
     }
 
-    getMenuItems= async () => {
+    getListItems= async () => {
         const res = await fetch(this._url);
 
         if (!res.ok) {
