@@ -7,6 +7,7 @@ import MainPage from '../pages/main-page'
 import AboutPage from '../pages/about-page'
 import ShopPage from '../pages/shop-page'
 import Cart from '../cart'
+import ViewPage from '../view-page'
 
 
 const App = () => {
@@ -16,8 +17,14 @@ const App = () => {
                 <AppHeader/>
                 <Route path='/' exact component={MainPage}/>
                 <Route path='/about' exact component={AboutPage}/>
-                <Route path='/shop' exact component={ShopPage}/>
+                <Route path='/shop/' exact component={ShopPage}/>
                 <Route path='/cart' exact component={Cart}/>
+                <Route path='/flowers/:id/' render = {
+                    ({match}) => {
+                        const {id} = match.params
+                        return <ViewPage itemId = {id}/>
+                    }
+                }/>
                 <Footer/>
             </Router>
         </div>

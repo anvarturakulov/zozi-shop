@@ -31,10 +31,18 @@ const deleteItemFromCart = (itemId) => {
     };
 };
 
+const changeCategory = (category) => {
+    return {
+        type : 'CHANGE_CATEGORY_FOR_PRODUCT_PANEL',
+        payload : category
+    };
+};
+
 export {
     listLoaded,
     listRequested,
     listError, 
     addItemToCart,
-    deleteItemFromCart
+    deleteItemFromCart,
+    changeCategory
 }

@@ -3,10 +3,10 @@ import React from 'react'
 const About = () => {
     return (
         <>
-            <div class="bg-success py-5">
-                <div class="container">
-                    <div class="row align-items-center py-5">
-                        <div class="col-md-8 text-white">
+            <div className="bg-success py-5">
+                <div className="container">
+                    <div className="row align-items-center py-5">
+                        <div className="col-md-8 text-white">
                             <h1>About Us</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -14,7 +14,7 @@ const About = () => {
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                         </div>
-                        <div class="col-md-4">
+                        <div className="col-md-4">
                             <img src="assets/img/about-hero.svg" alt="About Hero"/>
                         </div>
                     </div>

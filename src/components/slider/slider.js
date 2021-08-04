@@ -60,14 +60,14 @@ const Slider = () => {
 
             <div className="carousel-item active">
                 <div className="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src={`${process.env.PUBLIC_URL}${item.src}`} alt=""/>
+                    <div className="row p-5">
+                        <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img className="img-fluid" src={`${process.env.PUBLIC_URL}${item.src}`} alt=""/>
                         </div>
                         
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left align-self-center">
-                                <div class="title-slider">{item.caption}</div>
+                        <div className="col-lg-6 mb-0 d-flex align-items-center">
+                            <div className="text-align-left align-self-center">
+                                <div className="title-slider">{item.caption}</div>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const Slider = () => {
 
 
     return (
-        <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="template-mo-zay-hero-carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <Carousel
                     activeIndex={activeIndex}

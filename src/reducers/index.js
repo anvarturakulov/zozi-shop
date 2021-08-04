@@ -3,7 +3,8 @@ const initialState = {
     cart : [],
     loading:true,
     error: false,
-    totalPrice : 0
+    totalPrice : 0,
+    currentCategory: 'bouquet'
 }
 
 const reducer = (state = initialState, action) => {
@@ -77,6 +78,11 @@ const reducer = (state = initialState, action) => {
                     ...state.cart.slice(index+1)
                 ],
                 totalPrice : state.totalPrice - itemDel.price*itemDel.qtty
+            };
+        case 'CHANGE_CATEGORY_FOR_PRODUCT_PANEL':
+            return {
+                ...state,
+                currentCategory: action.payload,
             };
         default : 
             return state;

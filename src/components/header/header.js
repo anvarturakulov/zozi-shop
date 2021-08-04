@@ -3,50 +3,50 @@ import {Link} from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light shadow ">
-            <div class="container d-flex justify-content-between align-items-center">
+        <nav className="navbar navbar-expand-lg navbar-light shadow ">
+            <div className="container d-flex justify-content-between align-items-center">
 
-                <Link class="navbar-brand text-success logo h2 align-self-center" to="/">
+                <Link className="navbar-brand text-success logo h2 align-self-center" to="/">
                     Zozi Gullari
                 </Link>
 
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                    <div class="flex-fill">
-                        <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/">Главная</Link>
+                <div className="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                    <div className="flex-fill">
+                        <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/">Главная</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/shop">Магазин</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/shop">Магазин</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/about">Цветочная подписка</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/about">Цветочная подписка</Link>
                             </li>
                         </ul>
                     </div>
-                    <div class="navbar align-self-center d-flex">
-                        <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                            <div class="input-group">
-                                <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ..."/>
-                                <div class="input-group-text">
-                                    <i class="fa fa-fw fa-search"></i>
+                    <div className="navbar align-self-center d-flex">
+                        <div className="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                            <div className="input-group">
+                                <input type="text" className="form-control" id="inputMobileSearch" placeholder="Search ..."/>
+                                <div className="input-group-text">
+                                    <i className="fa fa-fw fa-search"></i>
                                 </div>
                             </div>
                         </div>
-                        <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                            <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                        <a className="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                            <i className="fa fa-fw fa-search text-dark mr-2"></i>
                         </a>
-                        <a class="nav-icon position-relative text-decoration-none" href="#">
-                            <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                        <a className="nav-icon position-relative text-decoration-none" href="#">
+                            <i className="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                            <span className="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
                         </a>
-                        <a class="nav-icon position-relative text-decoration-none" href="#">
-                            <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                        <a className="nav-icon position-relative text-decoration-none" href="#">
+                            <i className="fa fa-fw fa-user text-dark mr-3"></i>
+                            <span className="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                         </a>
                     </div>
                 </div>
