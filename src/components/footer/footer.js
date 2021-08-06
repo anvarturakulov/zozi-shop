@@ -78,6 +78,7 @@ const Footer = () => {
                 </div>
 
                 <div className="w-100 bg-black py-2">
+                   
                     <div className="container">
                         <div className="row pt-3">
                             <div className="col-12">
@@ -87,6 +88,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </footer>
         </>
