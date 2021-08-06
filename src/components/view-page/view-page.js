@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux';
 import WithRestoService from '../hoc';
-import {listLoaded, listRequested, listError} from '../../actions'
+import {listLoaded, listRequested, listError, addItemToCart} from '../../actions'
 import Error from '../error'
 import Spinner from '../spinner'
 import {withRouter} from 'react-router-dom'
@@ -9,7 +9,6 @@ import {withRouter} from 'react-router-dom'
 class ViewPage extends Component {
     
     componentDidMount() {
-        console.log('загрузка с базы')
         this.props.listRequested();
         const {RestoService} = this.props;
         RestoService.getListItems()
@@ -19,7 +18,7 @@ class ViewPage extends Component {
 
     render() {
         
-        const {prodItems, loading, error, itemId} = this.props;
+        const {prodItems, loading, error, itemId, addItemToCart} = this.props;
 
         if (loading) return <Spinner/> 
         if (error)   return <Error/>
@@ -90,7 +89,10 @@ class ViewPage extends Component {
                                                     this.props.history.push(`/shop`)
                                                 }
                                                 >В магазин</button>
-                                            <button className="btn btn-success">Добавит в корзину</button>
+                                            <button 
+                                                className="btn btn-success"
+                                                onClick = {() => addItemToCart(+itemId)}
+                                                >Добавит в корзину</button>
                                         </div>
                                         
                                     </div>
@@ -118,7 +120,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = {
     listLoaded,
     listRequested,
-    listError
+    listError,
+    addItemToCart
 }
 
 export default withRouter(WithRestoService()(connect(mapStateToProps,mapDispatchToProps)(ViewPage)));

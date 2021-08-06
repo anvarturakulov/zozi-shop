@@ -1,0 +1,14 @@
+.cart-info{
+    margin-top: 100px;
+}
+
+.cart-info-content{
+    text-align: justify;
+    margin: 10px 10px;
+    color : rgb(148, 147, 147)
+}
+
+.cart-info h4, 
+.cart-info h5 { 
+    color : rgb(148, 147, 147);
+}

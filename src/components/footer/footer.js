@@ -47,7 +47,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div className="row text-light mb-4">
+                    {/* <div className="row text-light mb-4">
                         <div className="col-12 mb-3">
                             <div className="w-100 my-3 border-top border-light"></div>
                         </div>
@@ -74,7 +74,7 @@ const Footer = () => {
                                 <div className="input-group-text btn-success text-light">Subscribe</div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="w-100 bg-black py-2">
