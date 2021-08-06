@@ -31,10 +31,30 @@ const deleteItemFromCart = (itemId) => {
     };
 };
 
+const deleteAllItemFromCart = () => {
+    return {
+        type : 'DELETE_ALL_ITEM_FROM_CART'
+    };
+};
+
 const changeCategory = (category) => {
     return {
         type : 'CHANGE_CATEGORY_FOR_PRODUCT_PANEL',
         payload : category
+    };
+};
+
+const decQtty = (itemId) => {
+    return {
+        type : 'DEC_QTTY',
+        payload : itemId
+    };
+};
+
+const incQtty = (itemId) => {
+    return {
+        type : 'INC_QTTY',
+        payload : itemId
     };
 };
 
@@ -44,5 +64,8 @@ export {
     listError, 
     addItemToCart,
     deleteItemFromCart,
-    changeCategory
+    changeCategory,
+    deleteAllItemFromCart,
+    decQtty,
+    incQtty
 }

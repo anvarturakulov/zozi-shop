@@ -11,7 +11,6 @@ import PaginationList from '../pagination-list'
 class ProductPanel extends Component {
 
     componentDidMount() {
-        console.log('загрузка с базы')
         this.props.listRequested();
         const {RestoService} = this.props;
         RestoService.getListItems()

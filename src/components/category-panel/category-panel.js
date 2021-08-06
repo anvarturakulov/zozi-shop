@@ -7,11 +7,6 @@ import {changeCategory} from '../../actions'
 class CategoryPanel extends Component {
 
     changeCategory = (e)=> {
-        // this.props.listRequested();
-        // const {RestoService} = this.props;
-        // RestoService.getListItems()
-        //     .then(res => this.props.listLoaded(res))
-        //     .catch(() => this.props.listError())
         
         const btns = document.querySelectorAll('.category-type')
         btns.forEach(item => {
@@ -27,13 +22,13 @@ class CategoryPanel extends Component {
         const {currentCategory} = this.props
 
         const categoryList = [['bouquet','Букеты'], ['boxes','Цветы в коробках'], ['presents','Подарки и прочие']]
-        const btnList = categoryList.map(item => {
+        const btnList = categoryList.map((item, i) => {
             let clName = 'category-type'
             if (item[0] === currentCategory) {
                 clName +=' active'
             }
             return (
-                <li className="pb-2">
+                <li className="pb-2" key={i}>
                     <button className={clName} 
                         data-category = {item[0]}
                         onClick = {(e)=> this.changeCategory(e)}    
@@ -42,8 +37,6 @@ class CategoryPanel extends Component {
                 </li>
             )
         })
-
-        console.log(btnList)
 
         return (
             <div className="col-lg-3">
